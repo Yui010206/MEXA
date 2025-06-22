@@ -72,8 +72,8 @@ sh run_scripts/crema/inference/sqa3d.sh
 Please cite our paper if you use our models in your works:
 
 ```bibtex
-@article{yu2024crema,
-  title={CREMA: Generalizable and Efficient Video-Language Reasoning via Multimodal Modular Fusion},
+@article{yu2025mexa,
+  title={MEXA: Towards General Multimodal Reasoning with Dynamic Multi-Expert Aggregation},
   author={Yu, Shoubin and Yoon, Jaehong and Bansal, Mohit},
   journal={ICLR},
   year={2025}
