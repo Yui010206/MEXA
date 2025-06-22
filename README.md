@@ -15,57 +15,27 @@
 - **Jun 22, 2025**. Check our [arXiv-version]() for MEXA.
 
 
-# Code structure
-```bash
-
-# CREMA code
-./lavis/
-
-# running scripts for CREMA training/inference
-./run_scripts
-
-```
 
 # Setup
 
+- We will release skill caption code / data later
+
 ## Install Dependencies
 
-1. (Optional) Creating conda environment
 
 ```bash
-conda create -n crema python=3.8
-conda activate crema
+conda create -n mexa python=3.10
+conda activate mexa
+pip install -r requirements.txt
 ```
-
-2. build from source
-
-```bash
-pip install -e .
-```
-
-
-# Dataset Preparation & Feature Extraction
-
-We will share extracted features. 
-| Dataset | Multimodal Features |
-| :----    |    :----  | 
-| SQA3D | [Video Frames](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym), [Depth Map](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym), [Surface Normals](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym) |
-| MUSIC-AVQA | [Video Frames](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym), [Optical Flow](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym) , [Depth Map](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym), [Surface Normals](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym) |
-| NExT-QA | [Video Frames](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym), [Depth Map](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym), [Optical Flow](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym), [Surface Normals](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym) |
-| Touch-QA | [Video Frames](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym), [Surface Normals](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym) |
-| Thermal-QA | [Video Frames](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym), [Depth Map](https://drive.google.com/drive/folders/15b_IdwsbLU9iZPxR1Is3pObl-Le8v1ym) |
-
-
 
 
 # Inference
 We provide MEXA inference script examples as follows.
 
-
 ```bash
-sh run_scripts/crema/inference/sqa3d.sh
+sh run_mexa.sh
 ```
-
 
 
 # Reference
@@ -74,7 +44,7 @@ Please cite our paper if you use our models in your works:
 ```bibtex
 @article{yu2025mexa,
   title={MEXA: Towards General Multimodal Reasoning with Dynamic Multi-Expert Aggregation},
-  author={Yu, Shoubin and Yoon, Jaehong and Bansal, Mohit},
-  journal={ICLR},
+  author={Yu, Shoubin and Zhang, Yue and Wang, Ziyang and Yoon, Jaehong and Bansal, Mohit},
+  journal={ArXiv},
   year={2025}
 }
