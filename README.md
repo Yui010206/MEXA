@@ -4,7 +4,7 @@
  [![arXiv](https://img.shields.io/badge/arXiv-2402.05889-b31b1b.svg)](https://arxiv.org/abs/2402.05889)
 
 
-### Authors: [Shoubin Yu*](https://yui010206.github.io/),[Yue Zhang*](https://zhangyuejoslin.github.io/),[Ziyang Wang](https://ziyangw2000.github.io/),[Jaehong Yoon](https://jaehong31.github.io/), [Mohit Bansal](https://www.cs.unc.edu/~mbansal/)
+### Authors: [Shoubin Yu*](https://yui010206.github.io/), [Yue Zhang*](https://zhangyuejoslin.github.io/), [Ziyang Wang](https://ziyangw2000.github.io/), [Jaehong Yoon](https://jaehong31.github.io/), [Mohit Bansal](https://www.cs.unc.edu/~mbansal/)
 ### University of North Carolina at Chapel Hill
 
 
