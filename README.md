@@ -58,7 +58,7 @@ We will share extracted features.
 
 
 
-# Training and Inference
+# Inference
 We provide MEXA inference script examples as follows.
 
 
