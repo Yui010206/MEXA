@@ -1,7 +1,7 @@
 
 
 # <img src="assets/logo_mexa.png" alt="Image description" class="title-icon" style="width: 40px; height: auto;"> MEXA: Towards General Multimodal Reasoning with Dynamic Multi-Expert Aggregation
- [![arXiv](https://img.shields.io/badge/arXiv-2402.05889-b31b1b.svg)](https://arxiv.org/abs/2402.05889)
+ [![arXiv](https://img.shields.io/badge/arXiv-2402.05889-b31b1b.svg)](https://arxiv.org/abs/2506.17113)
 
 
 ### Authors: [Shoubin Yu*](https://yui010206.github.io/), [Yue Zhang*](https://zhangyuejoslin.github.io/), [Ziyang Wang](https://ziyangw2000.github.io/), [Jaehong Yoon](https://jaehong31.github.io/), [Mohit Bansal](https://www.cs.unc.edu/~mbansal/)
@@ -18,7 +18,7 @@
 
 # Setup
 
-- We will release skill caption code / data later
+- We will release multi-expert skills/captions code / data later
 
 ## Install Dependencies
 
@@ -39,12 +39,12 @@ sh run_mexa.sh
 
 
 # Reference
-Please cite our paper if you use our models in your works:
+Please cite our paper if you use our models in your work:
 
 ```bibtex
 @article{yu2025mexa,
   title={MEXA: Towards General Multimodal Reasoning with Dynamic Multi-Expert Aggregation},
   author={Yu, Shoubin and Zhang, Yue and Wang, Ziyang and Yoon, Jaehong and Bansal, Mohit},
-  journal={ArXiv},
+  journal={arxiv:2506.17113},
   year={2025}
 }
