@@ -1,6 +1,6 @@
 
 
-# <img src="assets/logo_mexa.png" alt="Image description" class="title-icon" style="width: 40px; height: auto;"> MEXA: Towards General Multimodal Reasoning with Dynamic Multi-Expert Aggregation
+# [EMNLP 2025 Findings] <img src="assets/logo_mexa.png" alt="Image description" class="title-icon" style="width: 40px; height: auto;"> MEXA: Towards General Multimodal Reasoning with Dynamic Multi-Expert Aggregation
  [![arXiv](https://img.shields.io/badge/arXiv-2402.05889-b31b1b.svg)](https://arxiv.org/abs/2506.17113)
 
 
